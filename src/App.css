@@ -1,3 +1,13 @@
+body {
+  background-color: black;
+}
+
+.logoFocus {
+  max-width: 300px;
+  height: auto;
+  z-index: -1;
+}
+
 .App {
   text-align: center;
 }
