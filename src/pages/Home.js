@@ -6,6 +6,8 @@ import React from "react";
 const Home = () => {
   return (
     <div className="container">
+      THis is what home says
+    
     </div>
   );
 };
