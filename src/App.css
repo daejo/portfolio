@@ -1,11 +1,29 @@
+:root {
+--primary-color: #10BDAA;
+--secondary-color: #024e76;
+--tertiary-color: #39a6b2;
+}
+
 body {
-  background-color: black;
+margin: 0;
+background-image: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+color: #ffffff;
+font-family: "Montserrat", serif;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
 }
 
 .logoFocus {
   max-width: 300px;
   height: auto;
   z-index: -1;
+}
+
+.djName {
+  font-weight: 1000px;
 }
 
 .App {
